@@ -1,0 +1,29 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class LearningCurve : MonoBehaviour
+{
+    public int currentAge = 30;
+    public int addadAge = 1;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        ComputeAge();
+    }
+
+    /// <summary>
+    /// Computesa modified age integer
+    /// </summary>
+    void ComputeAge()
+    {
+        Debug.Log(currentAge + addadAge);
+    }
+
+    // Update is called once per frame
+    void Update() 
+    {
+        
+    }
+}
